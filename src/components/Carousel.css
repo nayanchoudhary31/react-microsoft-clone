@@ -1,0 +1,12 @@
+.banner-customize{
+    top:16.1rem !important;
+    right: 55% !important;
+    text-align: left !important;
+}
+.banner-size{
+    width: 10% !important;
+}
+.carousel-item button{
+    background-color: black;
+    font-weight: bold;
+}
