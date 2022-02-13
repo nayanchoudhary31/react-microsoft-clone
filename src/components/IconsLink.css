@@ -1,0 +1,18 @@
+.ul-container{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding:2rem;
+    margin-top: 2rem;
+    justify-content:  space-evenly;
+    
+}
+
+.ul-container a{
+    color: #000;
+    text-decoration: none;
+}
+
+.ul-container a:hover{
+    text-decoration: underline;
+}

@@ -1,21 +1,20 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
-
-
-function Cards(props) {
+function Card1(props) {
   return (
     <div>
       <Container>
-        <Row style={{marginTop:"2rem"}}>
+         
+        <Row  style={{marginTop:"2rem"}}>
+        <h4>For Business</h4>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={props.card1} />
+              <Card.Img variant="top" src={props.card5} />
               <Card.Body>
-                <Card.Title>Surface Laptop Go.</Card.Title>
+                <Card.Title>Surface for Business</Card.Title>
                 <Card.Text>
-                  Make the most of every day with the sleek style and
-                  performance of our lightest Surface laptop.
+                No matter what you do, there’s a Surface to help you do it.
                 </Card.Text>
                 <Button variant="light" style={{ color: "blue" }}>
                   Shop Now {`>`}
@@ -25,42 +24,42 @@ function Cards(props) {
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={props.card2} />
+              <Card.Img variant="top" src={props.card6} />
               <Card.Body>
-                <Card.Title>Surface Go 3.</Card.Title>
+                <Card.Title>Great solutions for your school</Card.Title>
                 <Card.Text>
-                  The most portable Surface 2-in-1 is perfect for your everyday tasks, homework, and play. Now available with Windows 11.
+                Accelerate the power of learning with inclusive, accessible and affordable Windows 11 and Windows 11 SE devices for your K-12 school district and students.
                 </Card.Text>
                 <Button variant="light" style={{ color: "blue" }}>
-                  Shop Now {`>`}
+                  Learn more {`>`}
                 </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={props.card3}/>
+              <Card.Img variant="top" src={props.card7} />
               <Card.Body>
-                <Card.Title>Xbox Game Pass Ultimate.</Card.Title>
+                <Card.Title>Get Microsoft Teams for free</Card.Title>
                 <Card.Text>
-                  Get your first 8 months of membership for ₹ 699. Play on the devices you own. Includes EA Play. Offer available to new subscribers only and cannot be combined with any other offers.
+                Online meetings, chat and shared cloud storage – all in one place.
                 </Card.Text>
                 <Button variant="light" style={{ color: "blue" }}>
-                  Join Now {`>`}
+                  Sign Up for free {`>`}
                 </Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={props.card4} />
+              <Card.Img variant="top" src={props.card8} />
               <Card.Body>
-                <Card.Title>Microsoft Edge.</Card.Title>
+                <Card.Title>Welcome to your Windows 365 Cloud PC</Card.Title>
                 <Card.Text>
-                 World-class performance with more privacy, more productivity and more value while you browse.
+                Securely stream your Windows experience from the Microsoft cloud to any device.
                 </Card.Text>
                 <Button variant="light" style={{ color: "blue" }}>
-                  Download Now {`>`}
+                  Get it Today {`>`}
                 </Button>
               </Card.Body>
             </Card>
@@ -71,4 +70,4 @@ function Cards(props) {
   );
 }
 
-export default Cards;
+export default Card1;

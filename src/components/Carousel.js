@@ -2,9 +2,11 @@ import React from "react";
 import "./Carousel.css";
 import carousel1 from "../assets/carousel1.jpeg";
 import carousel2 from "../assets/carosel4.jpeg";
+import { Container } from "react-bootstrap";
 
 function Carousel() {
   return (
+    <Container>
     <div
       id="carouselExampleDark"
       class="carousel carousel-dark slide position-relative"
@@ -73,6 +75,7 @@ function Carousel() {
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    </Container>
   );
 }
 

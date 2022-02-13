@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "./IconsLink.css";
 import windowblack from "../assets/window-black.png";
 import surface from "../assets/surface.png";
 import xbox from "../assets/xbox.png";
@@ -7,22 +8,34 @@ function IconsLink() {
   return (
     <div>
       <Container>
-        <Row className="justify-content-md-center">
+        <Row>
           <Col>
-          <img src={windowblack} alt="window-logo" />
-          <h5>Choose your Microsoft 365.</h5>
-          </Col>
-          <Col>
-          <img src={surface} alt="surface" />
-          <h5>Explore Surface Devices.</h5>
-          </Col>
-          <Col>
-          <img src={xbox} alt="xbox" />
-          <h5>Buy Xbox games.</h5>
-          </Col>
-          <Col>
-          <img src={windowblack} alt='window-logo'/>
-          <h5>Get Windows 11</h5>
+            <ul className="ul-container">
+              <li>
+                <a href="/">
+                  <img  src={windowblack} alt="" />
+                  <div>Choose your Microsoft</div>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src={surface} alt="" />
+                  <div>Explore Surface Device</div>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src={xbox} alt="" />
+                  <div>Buy Xbox games</div>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src={windowblack} alt="" />
+                  <div>Get Windows</div>
+                </a>
+              </li>
+            </ul>
           </Col>
         </Row>
       </Container>
